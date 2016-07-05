@@ -519,6 +519,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Frontend/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/frontend/templates/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/frontend/pages/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -624,6 +664,10 @@
 	},
 	"file_history":
 	[
+		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/Frontend/HomeController.php",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/app.scss",
+		"/E/project-fanners/vila-langit-biru/resources/views/frontend/home.blade.php",
+		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/BaseController.php",
 		"/E/server/project1/.env",
 		"/E/server/project1/composer.json",
 		"/E/server/project1/config/app.php",
@@ -747,11 +791,7 @@
 		"/E/Hebron/resources/views/Admin/Pages/Articles/show.blade.php",
 		"/E/Hebron/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
 		"/E/Hebron/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
-		"/E/Hebron/resources/views/Admin/Widgets/navbar.blade.php",
-		"/C/Users/Red_ScarleT/Desktop/flat-admin-bootstrap-templates-master/index.html",
-		"/E/Hebron/resources/views/Admin/Widgets/breadcrumb.blade.php",
-		"/E/Hebron/resources/views/Admin/Widgets/nabvar.blade.php",
-		"/C/Users/Red_ScarleT/Desktop/Bootstrap_Metro_Dashboard-master/index.html"
+		"/E/Hebron/resources/views/Admin/Widgets/navbar.blade.php"
 	],
 	"find":
 	{
@@ -953,8 +993,142 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/app.php",
+					"settings":
+					{
+						"buffer_size": 8407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8396,
+								8396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3483.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/Frontend/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/frontend/templates/layout.blade.php",
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/frontend/pages/home.blade.php",
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -999,6 +1173,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"app.scs",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
 			[
 				"app",
 				"config/app.php"
@@ -1110,10 +1292,6 @@
 			[
 				"summer",
 				"resources/views/Admin/Plugins/summernote.blade.php"
-			],
-			[
-				"routes",
-				"app/Http/routes_admin.php"
 			],
 			[
 				"article",
@@ -1506,10 +1684,6 @@
 			[
 				"indexnav",
 				"resources/views/page_elements/indexNavigation.blade.php"
-			],
-			[
-				"laporanstok",
-				"app/Http/Controllers/Laporan/StockController.php"
 			]
 		],
 		"width": 0.0
@@ -1520,12 +1694,24 @@
 		"selected_items":
 		[
 			[
+				"prj",
+				"/E/server/prjct1.sublime-project"
+			],
+			[
 				"",
-				"/E/github/new/balin-dashboard.sublime-project"
+				"/E/Hebron/hebron.sublime-project"
+			],
+			[
+				"pr",
+				"/E/server/prjct1.sublime-project"
+			],
+			[
+				"hebron",
+				"/E/Hebron/hebron.sublime-project"
 			],
 			[
 				"balin",
-				"/E/github/new/balin-dashboard.sublime-project"
+				"/E/github/new/balinv2.sublime-project"
 			],
 			[
 				"heb",

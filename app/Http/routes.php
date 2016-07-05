@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::group(['namespace' => 'Frontend\\'], function()
+{
+	Route::get('/home',					['uses' => 'HomeController@home', 'as' => 'frontend.home']);
+});
+
