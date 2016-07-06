@@ -1,0 +1,43 @@
+@import"_variables";
+
+.header {
+	background-color: $white;
+	text-align: center;
+}
+
+@media screen and (max-width: 399px) {
+    .header {
+		height: 75px;
+    }
+    .header .logo {
+        height: 50px;
+        margin-top: $spacer-xxs;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+    .header {
+		height: 100px;
+    }
+    .header .logo {
+        height: 70px;
+        margin-top: $spacer-xs;
+    }        
+}	
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+		height: 150px;
+    }
+    .header .logo {
+        height: 105px;
+        margin-top: $spacer-sm;
+    }           
+}
+@media screen and (min-width: 992px) {
+    .header {
+		height: 200px;
+    }
+    .header .logo {
+        height: 135px;
+        margin-top: $spacer-md;
+    }          
+}		

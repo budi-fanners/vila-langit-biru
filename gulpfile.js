@@ -17,5 +17,12 @@ elixir(function(mix) {
 
 elixir(function(mix) {
     mix.sass('app.scss')
-		.version(['public/css/app.css']);
+		.scripts([
+				'jquery-3.0.0.min.js', 
+				'bootstrap.min.js', 
+			], 'public/js/app.js')    
+		.version([
+				'public/css/app.css',
+				'public/js/app.js',
+			]);
 });

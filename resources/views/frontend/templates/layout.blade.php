@@ -14,8 +14,12 @@
     {!! Html::style(elixir('css/app.css')) !!}
 </head>
 <body>
-
+	<div class="header">
+        <img src="{{ asset('images/logo.png') }}" alt="Vila Langit Biru" class="logo">
+	</div>
 	@yield('contents')
+
+    {!! Html::script(elixir('js/app.js')) !!}
 
 	<!-- jQuery -->
 	<script type="text/javascript">

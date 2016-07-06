@@ -520,42 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "config/app.php",
-			"settings":
-			{
-				"buffer_size": 8407,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 606,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Frontend/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 719,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/frontend/templates/layout.blade.php",
-			"settings":
-			{
-				"buffer_size": 574,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "resources/views/frontend/pages/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 67,
+				"buffer_size": 2215,
 				"line_ending": "Windows"
 			}
 		}
@@ -664,7 +632,11 @@
 	},
 	"file_history":
 	[
+		"/E/project-fanners/vila-langit-biru/resources/views/frontend/templates/layout.blade.php",
+		"/E/project-fanners/vila-langit-biru/config/app.php",
+		"/E/project-fanners/vila-langit-biru/app/Http/routes.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/Frontend/HomeController.php",
+		"/E/project-fanners/vila-langit-biru/gulpfile.js",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/app.scss",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/home.blade.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/BaseController.php",
@@ -787,11 +759,7 @@
 		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/index.html",
 		"/C/Users/Red_ScarleT/Desktop/Bootstrap_Metro_Dashboard-master/form.html",
 		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/empty.html",
-		"/E/Hebron/app/Http/Controllers/Admin/DashboardController.php",
-		"/E/Hebron/resources/views/Admin/Pages/Articles/show.blade.php",
-		"/E/Hebron/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
-		"/E/Hebron/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
-		"/E/Hebron/resources/views/Admin/Widgets/navbar.blade.php"
+		"/E/Hebron/app/Http/Controllers/Admin/DashboardController.php"
 	],
 	"find":
 	{
@@ -832,6 +800,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"dashboard_v1",
 			"offset\":40",
 			"pt-xl",
 			"height: 150px;",
@@ -957,9 +927,7 @@
 			"6",
 			"service",
 			"app",
-			"debugbar",
-			"all",
-			"profile"
+			"debugbar"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -993,23 +961,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/app.php",
+					"file": "resources/views/frontend/pages/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 8407,
+						"buffer_size": 2215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8396,
-								8396
+								629,
+								629
 							]
 						],
 						"settings":
@@ -1019,112 +987,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3483.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/routes.php",
-					"settings":
-					{
-						"buffer_size": 606,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								601,
-								601
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/Frontend/HomeController.php",
-					"settings":
-					{
-						"buffer_size": 719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								364,
-								364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 211.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/frontend/templates/layout.blade.php",
-					"settings":
-					{
-						"buffer_size": 574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/frontend/pages/home.blade.php",
-					"settings":
-					{
-						"buffer_size": 67,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 349.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1694,24 +1557,28 @@
 		"selected_items":
 		[
 			[
-				"prj",
-				"/E/server/prjct1.sublime-project"
+				"balin",
+				"/E/github/BALIN_web/balin_web.sublime-project"
 			],
 			[
 				"",
-				"/E/Hebron/hebron.sublime-project"
+				"/E/server/prjct1.sublime-project"
 			],
 			[
 				"pr",
 				"/E/server/prjct1.sublime-project"
 			],
 			[
-				"hebron",
-				"/E/Hebron/hebron.sublime-project"
+				"hr",
+				"/E/github/HRIS-V.2/hrisv2.sublime-project"
 			],
 			[
-				"balin",
-				"/E/github/new/balinv2.sublime-project"
+				"prj",
+				"/E/server/prjct1.sublime-project"
+			],
+			[
+				"hebron",
+				"/E/Hebron/hebron.sublime-project"
 			],
 			[
 				"heb",
