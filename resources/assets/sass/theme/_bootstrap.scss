@@ -1,0 +1,76 @@
+@import"_variables";
+
+//floating
+.pull-center{
+	float: none;
+	display: table;
+	margin: 0 auto;
+}
+
+//padding top
+.p-t-none{
+	padding-top: 0px;
+}
+.p-t-xs{
+	padding-top: $spacer-xs;
+}
+.p-t-md{
+	padding-top: $spacer-md;
+}
+.p-t-sm{
+	padding-top: $spacer-sm;
+}
+.p-t-lg{
+	padding-top: $spacer-lg;
+}
+
+//padding bottom
+.p-b-none{
+	padding-bottom: 0px;
+}
+.p-b-xs{
+	padding-bottom: $spacer-xs;
+}
+.p-b-md{
+	padding-bottom: $spacer-md;
+}
+.p-b-sm{
+	padding-bottom: $spacer-sm;
+}
+.p-b-lg{
+	padding-bottom: $spacer-lg;
+}
+
+//padding left
+.p-l-none{
+	padding-left: 0px;
+}
+.p-l-xs{
+	padding-left: $spacer-xs;
+}
+.p-l-md{
+	padding-left: $spacer-md;
+}
+.p-l-sm{
+	padding-left: $spacer-sm;
+}
+.p-l-lg{
+	padding-left: $spacer-lg;
+}
+
+//padding right
+.p-r-none{
+	padding-right: 0px;
+}
+.p-r-xs{
+	padding-right: $spacer-xs;
+}
+.p-r-md{
+	padding-right: $spacer-md;
+}
+.p-r-sm{
+	padding-right: $spacer-sm;
+}
+.p-r-lg{
+	padding-right: $spacer-lg;
+}
