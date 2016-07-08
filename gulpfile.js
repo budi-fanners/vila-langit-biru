@@ -18,7 +18,8 @@ elixir(function(mix) {
 elixir(function(mix) {
     mix.sass('app.scss')
 		.scripts([
-				'jquery-3.0.0.min.js', 
+				'jquery.js', 
+				'tether.min.js',
 				'bootstrap.min.js', 
 			], 'public/js/app.js')    
 		.version([
