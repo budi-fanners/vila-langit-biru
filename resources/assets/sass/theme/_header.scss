@@ -5,24 +5,10 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and  (max-width: 767px) {
     .header {
-        // height: 75px;
-		height: 55px;
-    }
-    .header .logo {
-        height: 50px;
-        margin-top: $spacer-xxs;
-    }
-}
-@media screen and (min-width: 400px) and (max-width: 767px) {
-    .header {
-		height: 75px;
-    }
-    .header .logo {
-        height: 70px;
-        margin-top: $spacer-xs;
-    }        
+		display: none;
+    }      
 }	
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .header {
@@ -35,10 +21,10 @@
 }
 @media screen and (min-width: 992px) {
     .header {
-		height: 200px;
+		height: 175px;
     }
     .header .logo {
         height: 135px;
-        margin-top: $spacer-md;
+        margin-top: $spacer-sm;
     }          
 }		

@@ -25,5 +25,7 @@ elixir(function(mix) {
 		.version([
 				'public/css/app.css',
 				'public/js/app.js',
-			]);
+			])
+		.copy('resources/assets/fonts', 'public/build/fonts/')
+		.copy('resources/assets/plugins/', 'public/plugins/');
 });

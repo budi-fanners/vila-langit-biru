@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -284,10 +292,6 @@
 				"transaction_tmp"
 			],
 			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"fon",
 				"font-size"
 			],
@@ -350,10 +354,6 @@
 			[
 				"bac",
 				"background-color"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"ribbon",
@@ -523,7 +523,34 @@
 			"file": "resources/views/frontend/pages/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 2215,
+				"buffer_size": 623,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/frontend/templates/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 706,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/frontend/components/navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 1767,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\n<script>\n	// $(document).ready(function(){\n	//   $(\".owl-carousel\").owlCarousel();\n	// });\n\n	$('.owl-carousel').owlCarousel({\n      navigation : false, \n      slideSpeed : 300,\n      paginationSpeed : 400,\n      singleItem: true,\n	})\n</script>",
+			"file": "resources/views/frontend/plugins/owl-carousel.blade.php",
+			"file_size": 254,
+			"file_write_time": 131124396430187273,
+			"settings":
+			{
+				"buffer_size": 245,
 				"line_ending": "Windows"
 			}
 		}
@@ -632,12 +659,25 @@
 	},
 	"file_history":
 	[
+		"/E/project-fanners/vila-langit-biru/public/plugins/owl-carousel/owl.carousel.css",
+		"/E/project-fanners/vila-langit-biru/gulpfile.js",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/app.scss",
+		"/E/project-fanners/vila-langit-biru/resources/views/frontend/plugins/owl-carousel.blade.php",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_nav.scss",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/templates/layout.blade.php",
+		"/E/project-fanners/vila-langit-biru/resources/views/frontend/components/navbar.blade.php",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_variables.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/_plugins.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/_theme.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/js/tether.min.js",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/bootstrap/_scaffolding.scss",
+		"/E/github/HRIS-V.2/gulpfile.js",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_header.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_bootstrap.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_brand.scss",
 		"/E/project-fanners/vila-langit-biru/config/app.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/routes.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/Frontend/HomeController.php",
-		"/E/project-fanners/vila-langit-biru/gulpfile.js",
-		"/E/project-fanners/vila-langit-biru/resources/assets/sass/app.scss",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/home.blade.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/BaseController.php",
 		"/E/server/project1/.env",
@@ -746,20 +786,7 @@
 		"/E/Hebron/node_modules/weinre/web/client/SidebarPane.js",
 		"/E/Hebron/public/js/sidebar/sidebarEffects.js",
 		"/E/Hebron/resources/views/Admin/Widgets/alertbox.blade.php",
-		"/E/Hebron/app/Http/Kernel.php",
-		"/E/Hebron/app/Http/Models/Observer/ArticleObserver.php",
-		"/E/Hebron/public/css/bootstrap.min.css",
-		"/E/Hebron/composer.json",
-		"/E/Hebron/config/app.php",
-		"/E/Hebron/app/Http/Models/User.php",
-		"/E/Hebron/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingKeyValuePair.php",
-		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/tables_dynamic.html",
-		"/E/Hebron/resources/views/Admin/Widgets/topbar.blade.php",
-		"/E/Hebron/resources/views/Admin/Pages/dashboard.blade.php",
-		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/index.html",
-		"/C/Users/Red_ScarleT/Desktop/Bootstrap_Metro_Dashboard-master/form.html",
-		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/empty.html",
-		"/E/Hebron/app/Http/Controllers/Admin/DashboardController.php"
+		"/E/Hebron/app/Http/Kernel.php"
 	],
 	"find":
 	{
@@ -800,6 +827,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src",
+			"HTML",
+			" <div>",
+			"class=\"img-slider\"",
+			"lass=\"item\"",
+			"#30df4a",
+			"#333",
+			"myModal",
+			"l-",
+			"left",
+			"-b",
+			"b-",
+			"bottom",
+			"t-",
+			"t",
+			"top",
+			"xs",
+			"url(\"images/bg01.png\")",
+			"center",
+			"brand",
 			"4",
 			"dashboard_v1",
 			"offset\":40",
@@ -907,27 +954,7 @@
 			"<div class=\"slide-moving\">",
 			"\">\n",
 			"memperk",
-			"<div class=\"row slide-bottom\">",
-			"Produk Ter",
-			"produk ter",
-			"card-animate-scroll",
-			"this",
-			"style=\"height: 150px",
-			"style=\"height: 150px; background-color:#FFF;\"",
-			"style=\"background-color:#fff\"",
-			"background-color:#FFF;",
-			"data",
-			"fade",
-			"500",
-			"name",
-			"find",
-			"latest",
-			"pull-right",
-			"400px",
-			"6",
-			"service",
-			"app",
-			"debugbar"
+			"<div class=\"row slide-bottom\">"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -961,7 +988,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -969,15 +996,15 @@
 					"file": "resources/views/frontend/pages/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 2215,
+						"buffer_size": 623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								629,
-								629
+								445,
+								445
 							]
 						],
 						"settings":
@@ -987,7 +1014,88 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 349.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/frontend/templates/layout.blade.php",
+					"settings":
+					{
+						"buffer_size": 706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/frontend/components/navbar.blade.php",
+					"settings":
+					{
+						"buffer_size": 1767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/frontend/plugins/owl-carousel.blade.php",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1037,6 +1145,18 @@
 		"selected_items":
 		[
 			[
+				"owl",
+				"public/plugins/owl-carousel/owl.carousel.css"
+			],
+			[
+				"lay",
+				"resources/views/frontend/templates/layout.blade.php"
+			],
+			[
+				"layou",
+				"resources/views/frontend/templates/layout.blade.php"
+			],
+			[
 				"app.scs",
 				"resources/assets/sass/app.scss"
 			],
@@ -1067,10 +1187,6 @@
 			[
 				"",
 				".env"
-			],
-			[
-				"layou",
-				"resources/views/web_v2/page_templates/layout.blade.php"
 			],
 			[
 				"nav",
@@ -1539,14 +1655,6 @@
 			[
 				"stockcon",
 				"app/Http/Controllers/Barang/StockController.php"
-			],
-			[
-				"owlcou",
-				"resources/views/plugins/owlCarousel.blade.php"
-			],
-			[
-				"indexnav",
-				"resources/views/page_elements/indexNavigation.blade.php"
 			]
 		],
 		"width": 0.0
@@ -1557,12 +1665,12 @@
 		"selected_items":
 		[
 			[
-				"balin",
-				"/E/github/BALIN_web/balin_web.sublime-project"
+				"",
+				"/E/github/new/balin-dashboard.sublime-project"
 			],
 			[
-				"",
-				"/E/server/prjct1.sublime-project"
+				"balin",
+				"/E/github/new/balinv2.sublime-project"
 			],
 			[
 				"pr",

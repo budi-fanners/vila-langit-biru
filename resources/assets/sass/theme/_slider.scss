@@ -1,0 +1,23 @@
+.slider-port{
+    width:100%; 
+    margin:0px;
+}
+ #slider img{
+    width: 100%;
+ }
+@media screen and (max-width: 767px) {
+     #slider img{
+           max-height: 360px;
+     } 
+}   
+@media screen and (min-width: 992px) and (max-width: 1366px){
+     #slider img{
+           max-height: 460px;
+     } 
+}  
+@media screen and (min-width: 1367px) {
+     #slider img{
+           max-height: 640px;
+     } 
+} 
+   

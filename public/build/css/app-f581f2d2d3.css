@@ -1055,8 +1055,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #fff;
-  margin: -1px; }
+  background-color: #fff; }
 
 input,
 button,
@@ -5749,7 +5748,7 @@ button.close {
   padding-top: 55px; }
 
 .p-t-sm {
-  padding-top: 35px; }
+  padding-top: 30px; }
 
 .p-t-lg {
   padding-top: 75px; }
@@ -5764,7 +5763,7 @@ button.close {
   padding-bottom: 55px; }
 
 .p-b-sm {
-  padding-bottom: 35px; }
+  padding-bottom: 30px; }
 
 .p-b-lg {
   padding-bottom: 75px; }
@@ -5779,7 +5778,7 @@ button.close {
   padding-left: 55px; }
 
 .p-l-sm {
-  padding-left: 35px; }
+  padding-left: 30px; }
 
 .p-l-lg {
   padding-left: 75px; }
@@ -5794,7 +5793,7 @@ button.close {
   padding-right: 55px; }
 
 .p-r-sm {
-  padding-right: 35px; }
+  padding-right: 30px; }
 
 .p-r-lg {
   padding-right: 75px; }
@@ -5803,38 +5802,31 @@ button.close {
   background-color: white;
   text-align: center; }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 767px) {
   .header {
-    height: 55px; }
-  .header .logo {
-    height: 50px;
-    margin-top: 20px; } }
-
-@media screen and (min-width: 400px) and (max-width: 767px) {
-  .header {
-    height: 75px; }
-  .header .logo {
-    height: 70px;
-    margin-top: 25px; } }
+    display: none; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .header {
     height: 150px; }
   .header .logo {
     height: 105px;
-    margin-top: 35px; } }
+    margin-top: 30px; } }
 
 @media screen and (min-width: 992px) {
   .header {
-    height: 200px; }
+    height: 175px; }
   .header .logo {
     height: 135px;
-    margin-top: 55px; } }
+    margin-top: 30px; } }
 
 .nav-vlb {
   cursor: default;
   background-color: #333;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: -1px;
+  border: none;
+  border-radius: 0px; }
 
 .nav-vlb:after {
   content: '';
@@ -5891,6 +5883,25 @@ button.close {
 .nav-vlb .menu i {
   margin-top: 14px;
   color: white; }
+
+.slider-port {
+  width: 100%;
+  margin: 0px; }
+
+#slider img {
+  width: 100%; }
+
+@media screen and (max-width: 767px) {
+  #slider img {
+    max-height: 360px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+  #slider img {
+    max-height: 460px; } }
+
+@media screen and (min-width: 1367px) {
+  #slider img {
+    max-height: 640px; } }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
