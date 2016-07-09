@@ -38,9 +38,15 @@
     padding: 1.5em 0.5em 1.35em 0.5em;
 
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16pt;
     font-weight: 300;
-    line-height: 1.65em;        
+    line-height: 1.65em;  
+    font-size: 16pt;
+}
+
+@media screen and (min-width: 1500px) {
+    .nav-vlb ul li a{
+        font-size: 24pt;
+    }
 }
 
 .nav-vlb .active{
@@ -65,10 +71,15 @@
 }
 
  .nav-vlb .title{
-    color: white;
-    font-size: 1.5em;
-    padding-top: 9px;
+    // color: white;
+    // font-size: 1.5em;
+    // padding-top: 9px;
  }
+
+ .nav-vlb .logo{
+    max-height:35px; 
+    margin-top:5px;
+}
 
  .nav-vlb .menu{
     font-size: 1.5em;

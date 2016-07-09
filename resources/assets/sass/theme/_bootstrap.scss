@@ -74,3 +74,54 @@
 .p-r-lg{
 	padding-right: $spacer-lg;
 }
+
+//wrapper
+@media screen and  (max-width: 767px) {
+    .wrapper{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }     
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+        padding-top: 0em;
+        padding-bottom: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }     
+}
+
+@media screen and (min-width: 992px) and (max-width: 1499px) {
+    .wrapper{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }  
+}
+
+@media screen and (min-width: 1500px) {
+    .wrapper{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 10em;
+        padding-right: 10em;
+    }   
+}
+
+
+// fonts
+p {
+    font-size:1.5em; 
+}
+
+h3 {
+    font-size: 2.5em;
+}
+h4 {
+    margin-top: 0px; 
+    font-size: 2em;
+}

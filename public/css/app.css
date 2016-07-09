@@ -4,6 +4,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1051,7 +1052,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -5120,7 +5121,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5233,7 +5234,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5798,6 +5799,102 @@ button.close {
 .p-r-lg {
   padding-right: 75px; }
 
+@media screen and (max-width: 767px) {
+  .wrapper {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0em;
+    padding-right: 0em; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em; } }
+
+@media screen and (min-width: 992px) and (max-width: 1499px) {
+  .wrapper {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em; } }
+
+@media screen and (min-width: 1500px) {
+  .wrapper {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 10em;
+    padding-right: 10em; } }
+
+p {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 2.5em; }
+
+h4 {
+  margin-top: 0px;
+  font-size: 2em; }
+
+.highlight {
+  text-align: center; }
+
+.highlight .icon i {
+  text-align: center;
+  cursor: default;
+  background-color: #30df4a;
+  color: white;
+  border-radius: 100%;
+  display: inline-block;
+  box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+  margin: 0 0 2em 0; }
+
+.highlight .icon i:before {
+  font-size: 36px; }
+
+@media screen and (max-width: 767px) {
+  .highlight .icon {
+    padding-top: 0.5em; }
+  .highlight .icon i {
+    width: 5em;
+    height: 5em;
+    line-height: 5em; }
+  .highlight .icon i {
+    margin-bottom: 0px; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .highlight .icon {
+    padding-top: 1.5em; }
+  .highlight .icon i {
+    width: 6em;
+    height: 6em;
+    line-height: 6em; }
+  .highlight .icon i {
+    margin-bottom: 0.5em; } }
+
+@media screen and (min-width: 992px) and (max-width: 1499px) {
+  .highlight {
+    padding-left: 1em;
+    padding-right: 1em; }
+  .highlight .icon {
+    padding-top: 2em; }
+  .highlight .icon i {
+    width: 7em;
+    height: 7em;
+    line-height: 7em; } }
+
+@media screen and (min-width: 1500px) {
+  .highlight {
+    padding-left: 1em;
+    padding-right: 1em; }
+  .highlight .icon {
+    padding-top: 2em; }
+  .highlight .icon i {
+    width: 8em;
+    height: 8em;
+    line-height: 8em; } }
+
 .header {
   background-color: white;
   text-align: center; }
@@ -5852,9 +5949,13 @@ button.close {
   display: block;
   padding: 1.5em 0.5em 1.35em 0.5em;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16pt;
   font-weight: 300;
-  line-height: 1.65em; }
+  line-height: 1.65em;
+  font-size: 16pt; }
+
+@media screen and (min-width: 1500px) {
+  .nav-vlb ul li a {
+    font-size: 24pt; } }
 
 .nav-vlb .active {
   font-weight: 600;
@@ -5872,10 +5973,9 @@ button.close {
   margin-left: -0.375em;
   background-color: #30df4a; }
 
-.nav-vlb .title {
-  color: white;
-  font-size: 1.5em;
-  padding-top: 9px; }
+.nav-vlb .logo {
+  max-height: 35px;
+  margin-top: 5px; }
 
 .nav-vlb .menu {
   font-size: 1.5em; }
@@ -5895,11 +5995,11 @@ button.close {
   #slider img {
     max-height: 360px; } }
 
-@media screen and (min-width: 992px) and (max-width: 1366px) {
+@media screen and (min-width: 992px) and (max-width: 1499px) {
   #slider img {
     max-height: 460px; } }
 
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 1500px) {
   #slider img {
     max-height: 640px; } }
 
