@@ -84,7 +84,7 @@
 
             <!-- middle section -->
             <div class="row">
-                @foreach($page_datas->villas as $villa)
+                @foreach($page_datas->villas as $ctr => $villa)
                 <div class="col-md-6 col-sm-6 col-xs-12 p-t-sm">
                     <div class="row p-b-sm card">
                         <div class="col-md-4 col-sm-4 col-xs-4">
@@ -103,6 +103,8 @@
                         </div>
                     </div>
                 </div>
+                @if(!$ctr % 2)
+                    <div class="col-md-12 clearfix"></div>
                 @endforeach
             </div>
         </div>
