@@ -103,8 +103,9 @@
                         </div>
                     </div>
                 </div>
-                @if(!$ctr % 2)
+                @if($ctr % 2)
                     <div class="col-md-12 clearfix"></div>
+                @endif
                 @endforeach
             </div>
         </div>
