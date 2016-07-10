@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"isn",
+				"is_null"
+			],
+			[
+				"vila",
+				"villas"
+			],
+			[
 				"fon",
 				"font-size"
 			],
@@ -506,51 +514,56 @@
 			[
 				"tran",
 				"transaction"
-			],
-			[
-				"transaCI",
-				"transaction"
-			],
-			[
-				"user",
-				"user_id"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "@extends('frontend.templates.layout')\n\n@section('contents')\n<style>\n  \n\n\n\n\n</style>\n\n\n<div id=\"banner\">\n    <!-- desktop and tablet -->\n    <div class=\"col-md-12 col-sm-12 hidden-xs p-l-none p-r-none\">\n        <div id=\"slider\" class=\"owl-carousel owl-theme\">\n \n            <img class=\"img-responsive\" src=\"{{ asset('images/slider1.png') }}\">\n            <img class=\"img-responsive\" src=\"{{ asset('images/slider2.png') }}\">\n            <img class=\"img-responsive\" src=\"{{ asset('images/slider3.png') }}\">\n\n        </div>\n    </div>\n\n    <!-- mobile -->\n    <div class=\"hidden-lg hidden-md hidden-sm col-xs-12 p-l-none p-r-none\">\n            <img class=\"img-responsive\" src=\"{{ asset('images/slider1.png') }}\">\n            <img class=\"img-responsive\" src=\"{{ asset('images/slider2.png') }}\">\n            <img class=\"img-responsive\" src=\"{{ asset('images/slider3.png') }}\">\n    </div>    \n</div>\n\n<div id=\"content\">\n    <div class=\"col-md-12 col-sm-12 col-xs-12 p-t-sm p-b-sm\">\n        <div class=\"wrapper\">\n            <!-- top section -->\n            <div class=\"row p-b-sm\">\n                <div class=\"col-md-4 col-sm-4 col-xs12\">\n                    <div class=\"highlight\">\n                        <div class=\"row p-b-sm\">\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 icon\">\n                                <i class=\"fa fa-trophy\"></i>\n                            </div>\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 description\">\n                                <h3>Villa Terbaik</h3>\n                                <p>\n                                    Mulai dari semangat …. kami melayani Anda penuh suka cita …\n                                    desain … kami rancang semuanya dengan cara terbaik.\n                                    proses … kami layani Anda dengan cara terbaik …\n                                </p>\n                            </div>\n                        </div>\n                    </div>                    \n                </div>\n                <div class=\"col-md-4 col-sm-4 col-xs12\">\n                    <div class=\"highlight\">\n                        <div class=\"row p-b-sm\">\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 icon\">\n                                <i class=\"fa fa-diamond\"></i>\n                            </div>\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 description\">\n                                <h3>Fasilitas Terbaik</h3>\n                                <p>Hanya 2  menit berkendara menuju tempat wisata keluarga terbaik di Jawa Timur : Jatim Park 2, BNS dan Eco Green Park.</p>\n                            </div>\n                        </div>\n                    </div>                \n                </div>\n                <div class=\"col-md-4 col-sm-4 col-xs12\">\n                    <div class=\"highlight\">\n                        <div class=\"row p-b-sm\">\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 icon\">\n                                <i class=\"fa fa-money\"></i>\n                            </div>\n                            <div class=\"col-md-12 col-sm-12 col-xs-12 description\">\n                                <h3>Harga Terbaik</h3>\n                                <p>Harga yang masuk akal. Value of Money untuk liburan terindah. Anda tidak akan pernah kecewa dengan apa yang Anda dapatkan!</p>\n                            </div>\n                        </div>\n                    </div>   \n                </div>                        \n            </div>\n\n            <!-- middle section -->\n            <div class=\"row\">\n                @foreach($i = 0; )\n                <div class=\"col-md-6 col-sm-6 col-xs-12 p-t-sm\">\n                    <div class=\"row p-b-sm\">\n                        <div class=\"col-md-4 col-sm-4 col-xs-4\">\n                            <img class=\"img-responsive\" src=\"{{ asset('images/slider3.png') }}\">\n                        </div>\n                        <div class=\"col-md-8 col-sm-8 col-xs-8\">\n                            <h4>Judul</h4>\n                            <p>\n                                lorem ipsum doler asdajdhsajg d adjha gdga dga\n                            </p>\n                            <a href=\"#\" class=\"btn btn-default\">learn more</a>\n                        </div>\n                    </div>\n                </div>\n                                           \n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"footer\">\n    <div class=\"col-md-12 col-sm-12 col-xs-12\" style=\"background-color:blue;height:350px;\">\n    </div>\n</div>\n\n@stop\n\n@section('plugins')\n    @include('frontend.plugins.owl-carousel')\n@stop",
 			"file": "resources/views/frontend/pages/home.blade.php",
-			"file_size": 6242,
-			"file_write_time": 131125315409686622,
 			"settings":
 			{
-				"buffer_size": 4676,
+				"buffer_size": 4595,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/assets/sass/theme/_content.scss",
+			"file": "app/Http/Controllers/Frontend/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 1518,
+				"buffer_size": 1126,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/assets/sass/theme/_nav.scss",
+			"file": "database/seeds/villaTableSeeder.php",
 			"settings":
 			{
-				"buffer_size": 1583,
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/imagesTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Models/Image.php",
+			"settings":
+			{
+				"buffer_size": 1427,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/assets/sass/theme/_bootstrap.scss",
+			"file": "app/Http/Models/Villa.php",
 			"settings":
 			{
-				"buffer_size": 1794,
+				"buffer_size": 1393,
 				"line_ending": "Windows"
 			}
 		}
@@ -660,14 +673,23 @@
 	"file_history":
 	[
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/components/navbar.blade.php",
-		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_nav.scss",
-		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_slider.scss",
+		"/E/project-fanners/vila-langit-biru/database/migrations/2016_07_10_034949_create_table_image.php",
+		"/E/project-fanners/vila-langit-biru/app/Http/Models/Image.php",
+		"/E/project-fanners/vila-langit-biru/app/Http/Models/Villa.php",
+		"/E/project-fanners/vila-langit-biru/database/seeds/villaTableSeeder.php",
+		"/E/project-fanners/vila-langit-biru/database/migrations/2016_07_10_034939_create_table_villa.php",
+		"/E/project-fanners/vila-langit-biru/database/seeds/DatabaseSeeder.php",
+		"/E/project-fanners/vila-langit-biru/config/database.php",
+		"/E/project-fanners/vila-langit-biru/.env",
+		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/Frontend/HomeController.php",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_bootstrap.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_nav.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_content.scss",
+		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_slider.scss",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/plugins/owl-carousel.blade.php",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/_theme.scss",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/bootstrap/_variables.scss",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/bootstrap/_scaffolding.scss",
-		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_content.scss",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/pages/home.blade.php",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_header.scss",
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_variables.scss",
@@ -681,7 +703,6 @@
 		"/E/project-fanners/vila-langit-biru/resources/assets/sass/theme/_brand.scss",
 		"/E/project-fanners/vila-langit-biru/config/app.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/routes.php",
-		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/Frontend/HomeController.php",
 		"/E/project-fanners/vila-langit-biru/resources/views/frontend/home.blade.php",
 		"/E/project-fanners/vila-langit-biru/app/Http/Controllers/BaseController.php",
 		"/E/server/project1/.env",
@@ -778,15 +799,7 @@
 		"/E/Hebron/resources/views/Admin/Pages/Articles/create.blade.php",
 		"/E/Hebron/resources/views/Admin/Layout/layout.blade.php",
 		"/E/Hebron/resources/views/Admin/Pages/Articles/index.blade.php",
-		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/form.html",
-		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/form_advanced.html",
-		"/E/Hebron/resources/views/Admin/Plugins/inputmask.blade.php",
-		"/E/Hebron/public/plugins/summernote/summernote.min.js",
-		"/E/Hebron/public/js/custom.js",
-		"/E/Hebron/node_modules/errno/custom.js",
-		"/E/Hebron/resources/views/Admin/Widgets/sidebar.blade.php",
-		"/E/Hebron/node_modules/weinre/web/client/WorkersSidebarPane.js",
-		"/E/Hebron/node_modules/weinre/web/client/SidebarTreeElement.js"
+		"/C/Users/Red_ScarleT/Desktop/gentelella-master/production/form.html"
 	],
 	"find":
 	{
@@ -827,6 +840,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images",
 			"30df4a",
 			"4",
 			"6",
@@ -953,8 +967,7 @@
 			"$data",
 			"datas",
 			"2015",
-			"$",
-			"recommend"
+			"$"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -996,15 +1009,15 @@
 					"file": "resources/views/frontend/pages/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 4676,
+						"buffer_size": 4595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3591,
-								3591
+								3727,
+								3727
 							]
 						],
 						"settings":
@@ -1014,91 +1027,140 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1284.0,
+						"translation.y": 1510.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/assets/sass/theme/_content.scss",
+					"file": "app/Http/Controllers/Frontend/HomeController.php",
 					"settings":
 					{
-						"buffer_size": 1518,
+						"buffer_size": 1126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								631,
+								631
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9.0,
+						"translation.y": 492.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "resources/assets/sass/theme/_nav.scss",
+					"file": "database/seeds/villaTableSeeder.php",
 					"settings":
 					{
-						"buffer_size": 1583,
+						"buffer_size": 757,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								471,
+								471
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "resources/assets/sass/theme/_bootstrap.scss",
+					"file": "database/seeds/imagesTableSeeder.php",
 					"settings":
 					{
-						"buffer_size": 1794,
+						"buffer_size": 898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1748,
-								1748
+								749,
+								749
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1989.0,
+						"translation.y": 392.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Models/Image.php",
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								761,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 304.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Models/Villa.php",
+					"settings":
+					{
+						"buffer_size": 1393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								796,
+								796
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 344.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1147,6 +1209,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"navbar",
+				"resources/views/frontend/components/navbar.blade.php"
+			],
+			[
+				"vil",
+				"app/Http/Models/Villa.php"
+			],
+			[
+				"image",
+				"app/Http/Models/Image.php"
+			],
+			[
+				"image.php",
+				"app/Http/Models/Image.php"
+			],
+			[
+				"homecontr",
+				"app/Http/Controllers/Frontend/HomeController.php"
+			],
+			[
+				"villa.p",
+				"app/Http/Models/Villa.php"
+			],
+			[
+				"homecon",
+				"app/Http/Controllers/Frontend/HomeController.php"
+			],
 			[
 				"owl-ca",
 				"resources/views/frontend/plugins/owl-carousel.blade.php"
@@ -1208,10 +1298,6 @@
 				"resources/views/web_v2/components/footer.blade.php"
 			],
 			[
-				"homecontr",
-				"app/Http/Controllers/HomeController.php"
-			],
-			[
 				"basecon",
 				"app/Http/Controllers/BaseController.php"
 			],
@@ -1258,10 +1344,6 @@
 			[
 				"card",
 				"resources/views/widgets/product_card.blade.php"
-			],
-			[
-				"homecon",
-				"app/Http/Controllers/Frontend/HomeController.php"
 			],
 			[
 				"routecoll",
@@ -1638,26 +1720,6 @@
 			[
 				"stokshow",
 				"resources/views/pages/laporan/stok/show.blade.php"
-			],
-			[
-				"laporanstock",
-				"app/Http/Controllers/Laporan/StockController.php"
-			],
-			[
-				"laporanshow",
-				"resources/views/pages/laporan/stok/show.blade.php"
-			],
-			[
-				"salecontroller",
-				"app/Http/Controllers/Laporan/SaleController.php"
-			],
-			[
-				"apistock",
-				"app/API/Connectors/APIStock.php"
-			],
-			[
-				"stokindex.bla",
-				"resources/views/pages/laporan/stok/index.blade.php"
 			]
 		],
 		"width": 0.0
@@ -1670,6 +1732,18 @@
 			[
 				"",
 				"/E/github/new/balinv2.sublime-project"
+			],
+			[
+				"hebron",
+				"/E/Hebron/hebron.sublime-project"
+			],
+			[
+				"sher",
+				"/E/SherlyShop/SherlyShop.sublime-project"
+			],
+			[
+				"heb",
+				"/E/Hebron/hebron.sublime-project"
 			],
 			[
 				"balin",
@@ -1686,14 +1760,6 @@
 			[
 				"prj",
 				"/E/server/prjct1.sublime-project"
-			],
-			[
-				"hebron",
-				"/E/Hebron/hebron.sublime-project"
-			],
-			[
-				"heb",
-				"/E/Hebron/hebron.sublime-project"
 			],
 			[
 				"sh",
@@ -1721,7 +1787,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 353.0,
 	"status_bar_visible": true
 }

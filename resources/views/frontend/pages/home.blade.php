@@ -15,18 +15,20 @@
     <div class="col-md-12 col-sm-12 hidden-xs p-l-none p-r-none">
         <div id="slider" class="owl-carousel owl-theme">
  
-            <img class="img-responsive" src="{{ asset('images/slider1.png') }}">
-            <img class="img-responsive" src="{{ asset('images/slider2.png') }}">
-            <img class="img-responsive" src="{{ asset('images/slider3.png') }}">
+            @foreach($page_datas->sliders as $slider)
+                <img class="img-responsive" src="{{ asset( is_null($slider['sumber']) ? 'images/errors/error-silder.png' : $slider['sumber'] ) }}">
+            @endforeach
 
         </div>
     </div>
 
     <!-- mobile -->
     <div class="hidden-lg hidden-md hidden-sm col-xs-12 p-l-none p-r-none">
-            <img class="img-responsive" src="{{ asset('images/slider1.png') }}">
-            <img class="img-responsive" src="{{ asset('images/slider2.png') }}">
-            <img class="img-responsive" src="{{ asset('images/slider3.png') }}">
+
+        @foreach($page_datas->sliders as $slider)
+            <img class="img-responsive" src="{{ asset( is_null($slider['sumber']) ? 'images/errors/error-silder.png' : $slider['sumber'] ) }}">
+        @endforeach      
+
     </div>    
 </div>
 
@@ -82,22 +84,26 @@
 
             <!-- middle section -->
             <div class="row">
-                @for ($i = 0; $i < 6; $i++)
+                @foreach($page_datas->villas as $villa)
                 <div class="col-md-6 col-sm-6 col-xs-12 p-t-sm">
-                    <div class="row p-b-sm">
+                    <div class="row p-b-sm card">
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img class="img-responsive" src="{{ asset('images/Villa Ketiga.jpg') }}">
+                            <a href="#">
+                                <img class="img-responsive " src="{{ asset( is_null($villa['image']['sumber']) ? 'images/errors/error-cover.png' : $villa['image']['sumber'] ) }}">
+                            </a>
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8">
-                            <h4>Judul</h4>
+                            <a href="#">
+                                <h4>{{$villa['nama']}}</h4>
+                            </a>
                             <p>
-                                lorem ipsum doler asdajdhsajg d adjha gdga dga
+                                {{$villa['deskripsi']}}
                             </p>
                             <a href="#" class="btn btn-default">learn more</a>
                         </div>
                     </div>
                 </div>
-                @endfor
+                @endforeach
             </div>
         </div>
     </div>
