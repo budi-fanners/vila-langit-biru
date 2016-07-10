@@ -89,7 +89,7 @@
                     <div class="row p-b-sm card">
                         <div class="col-md-4 col-sm-4 col-xs-4">
                             <a href="#">
-                                <img class="img-responsive " src="{{ asset( is_null($villa['image']['sumber']) ? 'images/errors/error-cover.png' : $villa['image']['sumber'] ) }}">
+                                <img class="img-responsive img-rounded" src="{{ asset( is_null($villa['image']['sumber']) ? 'images/errors/error-cover.png' : $villa['image']['sumber'] ) }}">
                             </a>
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8">
